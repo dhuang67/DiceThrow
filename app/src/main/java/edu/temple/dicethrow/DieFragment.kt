@@ -10,7 +10,7 @@ import kotlin.random.Random
 
 class DieFragment : Fragment() {
 
-    private val DIESIDE = "sidenumber"
+    val DIESIDE = "sidenumber"
     private val ROLL_KEY = "current_val"
 
     lateinit var dieTextView: TextView
